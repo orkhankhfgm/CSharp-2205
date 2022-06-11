@@ -19,16 +19,16 @@ namespace VariablesAndDataTypesAdvanced
 
             Console.WriteLine("Adınızı daxil edin: ");
             string name = Console.ReadLine();
-            
+
             Console.WriteLine("Soyadınızı daxil edin: ");
             string surname = Console.ReadLine();
-            
+
             Console.WriteLine("Doğulduğunuz ölkəni daxil edin: ");
             string country = Console.ReadLine();
-            
+
             Console.WriteLine("Boyunuzu daxil edin: ");
             string height = Console.ReadLine();
-            
+
             Console.WriteLine("Çəkinizi daxil edin: ");
             string weight = Console.ReadLine();
 
@@ -78,7 +78,7 @@ namespace VariablesAndDataTypesAdvanced
 
             //Nümunə 2:
             int takeShortVal = shortVal; //(implicit conversion)
-            
+
             //Nümunə 3:
             int takeBtVal = byteVal; //(implicit conversion)
 
@@ -196,11 +196,84 @@ namespace VariablesAndDataTypesAdvanced
             #endregion
 
             #region Helper Class Conversion
+            string numberString = "50";
+            int number;
 
+            //Implicit Conversion numunesi:
+            //number = numberString; //(Cannot implicitly convert type string to int)
+
+            //Explicit Conversion numunesi:
+            //number = (int)numberString; //(Cannot convert type string to int)
+
+            //Helper Class Conversion numunesi:
+            number = Convert.ToInt32(numberString);
+
+            //Not possible:
+            //bool booleanVariable = 1;
+            //bool booleanVariable = (bool)1;
+            //int integerVariable = (int)"1";
+            //int integerVariable = (int)true;
+
+            //Possible:
+            bool booleanVariable;
+            booleanVariable = Convert.ToBoolean(1); //true
+            booleanVariable = Convert.ToBoolean("true"); //true
+            booleanVariable = Convert.ToBoolean(null); //false
+
+            int integerVariable;
+            integerVariable = Convert.ToInt32("10"); //10
+            integerVariable = Convert.ToInt32(null); //0
+            integerVariable = Convert.ToInt32(true); //1
+            integerVariable = Convert.ToInt32(false); //0
+
+            string numString = "45";
+            //short stringToShort = numString;
+            //short stringToShort = (short)numString;
+            short stringToShort = Convert.ToInt16(numString);
+            
+            //int stringToInt = numString;
+            //int stringToInt = (int)numString;
+            int stringToInt = Convert.ToInt32(numString);
+
+            //long stringToLong = numString;
+            //long stringToLong = (long)numString;
+            long stringToLong = Convert.ToInt64(numString);
+
+            //Source variable types
+            int intVariable = 10;
+            long longVariable1 = 999999999;
+            short shortVariable = 1000;
+            byte byteVariable = 150;
+            bool boolVariable = true;
+
+            //Destination string variable
+            string getAnyValue;
+            getAnyValue = intVariable.ToString();
+            getAnyValue = longVariable1.ToString();
+            getAnyValue = shortVariable.ToString();
+            getAnyValue = byteVariable.ToString();
+            getAnyValue = boolVariable.ToString();
+
+            bool _boolVariable = Convert.ToBoolean("false"); //false
+            byte _byteVariable = Convert.ToByte("10");
+            char _charVariable = Convert.ToChar("A");
+            DateTime _dateTimeVariable = Convert.ToDateTime("2020-12-12");
+            decimal _decimalVariable = Convert.ToDecimal("15.7");
+            double _doubleVariable = Convert.ToDouble("15.5");
+            short _shortVariable = Convert.ToInt16("-25015");
+            int _intVariable = Convert.ToInt32("1500000");
+            long _longVariable = Convert.ToInt64("2000000021");
+            sbyte _sbyteVariable = Convert.ToSByte("12");
+            ushort _uShortVariable = Convert.ToUInt16("20");
+            uint _uIntVariable = Convert.ToUInt32("20");
+            ulong _uLongVariable = Convert.ToUInt64("20");
             #endregion
 
             #region User-Defined Conversion
-
+            Student student = new Student("Orkhan", "Farajov", 27);
+            string strStudent = student;
+            string strStudentCast = (Student)student;
+            string strStudentToString = student.ToString();
             #endregion
             #endregion
             Console.ReadLine();
