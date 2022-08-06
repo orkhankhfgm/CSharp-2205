@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2017
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Virtual Methods", "Virtual Methods\Virtual Methods.csproj", "{844B7A15-37E5-45CE-87D1-7F6CA5A46460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP-Inheritance-Part2-Homework-Solution", "OOP-Inheritance-Part2-Homework-Solution\OOP-Inheritance-Part2-Homework-Solution.csproj", "{2E6CCE1D-EE12-45C3-8C71-A89495BFE375}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{844B7A15-37E5-45CE-87D1-7F6CA5A46460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844B7A15-37E5-45CE-87D1-7F6CA5A46460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844B7A15-37E5-45CE-87D1-7F6CA5A46460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844B7A15-37E5-45CE-87D1-7F6CA5A46460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6CCE1D-EE12-45C3-8C71-A89495BFE375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6CCE1D-EE12-45C3-8C71-A89495BFE375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6CCE1D-EE12-45C3-8C71-A89495BFE375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6CCE1D-EE12-45C3-8C71-A89495BFE375}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5748BE4B-608B-4F91-AE83-571B64D5A7FF}
+	EndGlobalSection
+EndGlobal
