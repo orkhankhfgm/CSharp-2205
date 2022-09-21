@@ -139,6 +139,7 @@
             this.saveUserInfoBtn.TabIndex = 3;
             this.saveUserInfoBtn.Text = "Yadda Saxla";
             this.saveUserInfoBtn.UseVisualStyleBackColor = true;
+            this.saveUserInfoBtn.Click += new System.EventHandler(this.saveUserInfoBtn_Click);
             // 
             // HomePage
             // 

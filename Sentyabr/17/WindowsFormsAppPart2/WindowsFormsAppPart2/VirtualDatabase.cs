@@ -22,7 +22,7 @@ namespace WindowsFormsAppPart2
 
             Users.Add(new User
             {
-                Id = 1,
+                Id = 2,
                 Name = "Ruslan",
                 Surname = "Jafarov",
                 Username = "ruslanjafarov",
@@ -31,7 +31,7 @@ namespace WindowsFormsAppPart2
 
             Users.Add(new User
             {
-                Id = 1,
+                Id = 3,
                 Name = "Elmir",
                 Surname = "Mammadov",
                 Username = "elmirmammadov",
