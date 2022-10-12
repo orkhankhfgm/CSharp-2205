@@ -23,9 +23,9 @@ namespace MineFieldGame
         {
             Random rand = new Random();
 
-            int mineBox1 = rand.Next(1, 30); // 11
-            int mineBox2 = rand.Next(31, 60); // 38
-            int mineBox3 = rand.Next(61, 100); // 78
+            int mineBox1 = rand.Next(1, 30);
+            int mineBox2 = rand.Next(31, 60);
+            int mineBox3 = rand.Next(61, 100);
 
             for (int i = 1; i <= 100; i++)
             {
@@ -47,7 +47,27 @@ namespace MineFieldGame
 
         private void resetGameBtn_Click(object sender, EventArgs e)
         {
+            Random rand = new Random();
 
+            int mineBox1 = rand.Next(1, 30);
+            int mineBox2 = rand.Next(31, 60);
+            int mineBox3 = rand.Next(61, 100);
+
+            for (int i = 0; i < minePanel.Controls.Count; i++)
+            {
+                var button = (Button)minePanel.Controls[i];
+
+                button.Enabled = true;
+                button.BackColor = SystemColors.ControlDark;
+
+                if (mineBox1 == i || mineBox2 == i || mineBox3 == i)
+                    button.Tag = true;
+                else
+                    button.Tag = false;
+            }
+
+            scoreLbl.Text = "0";
+            mineLbl.Text = "3";
         }
 
         private void OpenBox(object sender, EventArgs e)
