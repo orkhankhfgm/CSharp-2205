@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2017
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{F63269C6-8AC6-4A07-92E5-7151950D33A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkOfFileAndDirectories", "HomeworkOfFileAndDirectories\HomeworkOfFileAndDirectories.csproj", "{062019DD-0A97-4ABC-BAC2-D6C1C3552DE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F63269C6-8AC6-4A07-92E5-7151950D33A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63269C6-8AC6-4A07-92E5-7151950D33A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63269C6-8AC6-4A07-92E5-7151950D33A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63269C6-8AC6-4A07-92E5-7151950D33A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062019DD-0A97-4ABC-BAC2-D6C1C3552DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062019DD-0A97-4ABC-BAC2-D6C1C3552DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062019DD-0A97-4ABC-BAC2-D6C1C3552DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062019DD-0A97-4ABC-BAC2-D6C1C3552DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E20CED1D-434F-4E01-9254-2DE210024007}
+	EndGlobalSection
+EndGlobal
