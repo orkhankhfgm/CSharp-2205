@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PastHomework", "PastHomewor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSS - Reader App", "RSS - Reader App\RSS - Reader App.csproj", "{9D256870-96C5-4425-9ECB-7FA2EFFCFAAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework", "Homework\Homework.csproj", "{AB1574EF-FEB7-456A-9186-545B30F9C9FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9D256870-96C5-4425-9ECB-7FA2EFFCFAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D256870-96C5-4425-9ECB-7FA2EFFCFAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D256870-96C5-4425-9ECB-7FA2EFFCFAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1574EF-FEB7-456A-9186-545B30F9C9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1574EF-FEB7-456A-9186-545B30F9C9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1574EF-FEB7-456A-9186-545B30F9C9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1574EF-FEB7-456A-9186-545B30F9C9FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
