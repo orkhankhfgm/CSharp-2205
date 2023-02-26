@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON and CSV", "JSON and CSV\JSON and CSV.csproj", "{C7DDD35C-1315-431F-BEBD-7747CEFB792D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV", "CSV\CSV.csproj", "{18976499-BC04-41A2-8EC8-C5201B57661D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homeworks", "Homeworks\Homeworks.csproj", "{0F5C36D5-9282-4388-A0AB-2D21448184AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7DDD35C-1315-431F-BEBD-7747CEFB792D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DDD35C-1315-431F-BEBD-7747CEFB792D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DDD35C-1315-431F-BEBD-7747CEFB792D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DDD35C-1315-431F-BEBD-7747CEFB792D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18976499-BC04-41A2-8EC8-C5201B57661D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18976499-BC04-41A2-8EC8-C5201B57661D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18976499-BC04-41A2-8EC8-C5201B57661D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18976499-BC04-41A2-8EC8-C5201B57661D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5C36D5-9282-4388-A0AB-2D21448184AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5C36D5-9282-4388-A0AB-2D21448184AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5C36D5-9282-4388-A0AB-2D21448184AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5C36D5-9282-4388-A0AB-2D21448184AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C144A38-C582-416D-904F-FF04661024DB}
+	EndGlobalSection
+EndGlobal
