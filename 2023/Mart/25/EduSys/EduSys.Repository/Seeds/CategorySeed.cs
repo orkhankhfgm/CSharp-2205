@@ -16,7 +16,7 @@ namespace EduSys.Repository.Seeds
             builder.HasData(
                 new Category { Id = 1, Name = "Electronics" },
                 new Category { Id = 2, Name = "Fashion" },
-                new Category { Id = 1, Name = "Pets" }
+                new Category { Id = 3, Name = "Pets" }
                 );
         }
     }
