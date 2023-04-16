@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using EduSys.API.Filters;
 using EduSys.Core.DTOs;
 using EduSys.Core.Models;
 using EduSys.Core.Services;
@@ -28,6 +29,7 @@ namespace EduSys.API.Controllers
             return CreateActionResult(CustomResponseDto<List<ProductDto>>.Success(200, productsDtos));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Product>))]
         [HttpGet("{id}")] //www.proqramlasdirmakurslari.az/api/Products/5 (request url)
         public async Task<IActionResult> GetById(int id)
         {
