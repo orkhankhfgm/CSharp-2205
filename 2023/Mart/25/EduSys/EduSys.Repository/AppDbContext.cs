@@ -57,6 +57,7 @@ namespace EduSys.Repository
                     {
                         case EntityState.Added:
                             {
+                                Entry(entityReferance).Property(x => x.UpdatedDate).IsModified = false;
                                 entityReferance.CreatedDate = DateTime.Now;
                                 break;
                             }
@@ -83,6 +84,7 @@ namespace EduSys.Repository
                     {
                         case EntityState.Added:
                             {
+                                Entry(entityReferance).Property(x => x.UpdatedDate).IsModified = false;
                                 entityReferance.CreatedDate = DateTime.Now;
                                 break;
                             }

@@ -5,6 +5,7 @@ using EduSys.Service.Mapping;
 using EduSys.Service.Validations;
 using EduSys.Web;
 using EduSys.Web.Modules;
+using EduSys.Web.Services;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
@@ -24,6 +25,16 @@ builder.Services.AddDbContext<AppDbContext>(x =>
     {
         option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
     });
+});
+
+builder.Services.AddHttpClient<ProductApiService>(opt =>
+{
+    opt.BaseAddress = new Uri(builder.Configuration["BaseUrl"]);
+});
+
+builder.Services.AddHttpClient<CategoryApiService>(opt =>
+{
+    opt.BaseAddress = new Uri(builder.Configuration["BaseUrl"]);
 });
 
 builder.Services.AddScoped(typeof(NotFoundFilter<>));
